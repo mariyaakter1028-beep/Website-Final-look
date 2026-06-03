@@ -1,18 +1,74 @@
-<!DOCTYPE html><html><head><meta charset='utf-8'><meta name='viewport' content='width=device-width,initial-scale=1'>
-    <title>Payment</title><link rel='stylesheet' href='style.css'></head><body>
-    <div class='sidebar'>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Payments</title>
+
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="sidebar">
     <h2>🚀 Panel Hub</h2>
-    <a href='index.html'>🏠 Dashboard</a>
-    <a href='panels.html'>🛒 Buy Panel</a>
-    <a href='orders.html'>📦 My Orders</a>
-    <a href='payment.html'>💰 Payments</a>
-    <a href='profile.html'>👤 Profile</a>
-    <a href='support.html'>📞 Support</a>
-    <a href='admin.html'>⚙️ Admin</a>
+
+    <a href="index.html">🏠 Dashboard</a>
+    <a href="panels.html">🛒 Buy Panel</a>
+    <a href="orders.html">📦 My Orders</a>
+    <a href="payment.html">💰 Payments</a>
+    <a href="profile.html">👤 Profile</a>
+    <a href="support.html">📞 Support</a>
+    <a href="admin.html">⚙️ Admin</a>
+</div>
+
+<div class="main">
+
+    <div class="header">
+        <h1>💰 Payment Methods</h1>
     </div>
-    <div class='main'>
-<h1>Payments</h1>
-<div class='card'>bKash: 017XXXXXXXX</div>
-<div class='card'>Nagad: 018XXXXXXXX</div>
-<div class='card'>Binance Pay: 123456789</div>
-</div></body></html>
+
+    <div class="section">
+
+        <div class="panel-box">
+            <h3>📱 bKash</h3>
+            <p>Number: 017XXXXXXXX</p>
+            <p>Type: Personal</p>
+        </div>
+
+        <div class="panel-box">
+            <h3>📱 Nagad</h3>
+            <p>Number: 018XXXXXXXX</p>
+            <p>Type: Personal</p>
+        </div>
+
+        <div class="panel-box">
+            <h3>🪙 Binance Pay</h3>
+            <p>Binance ID: 123456789</p>
+        </div>
+
+        <div class="panel-box">
+            <h3>📝 Submit Payment</h3>
+
+            <form>
+                <label>Panel Name</label><br>
+                <input type="text" placeholder="Enter panel name"><br><br>
+
+                <label>Transaction ID</label><br>
+                <input type="text" placeholder="Enter transaction ID"><br><br>
+
+                <label>Amount</label><br>
+                <input type="text" placeholder="Enter amount"><br><br>
+
+                <button type="submit" class="btn">
+                    Submit Payment
+                </button>
+            </form>
+
+        </div>
+
+    </div>
+
+</div>
+
+</body>
+    </html>
