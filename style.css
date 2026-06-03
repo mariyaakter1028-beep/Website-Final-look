@@ -1,0 +1,9 @@
+
+body{margin:0;font-family:Arial;background:#0f172a;color:#fff}
+.sidebar{position:fixed;left:0;top:0;width:220px;height:100%;background:#1e293b;padding-top:20px}
+.sidebar h2{text-align:center}
+.sidebar a{display:block;color:#fff;text-decoration:none;padding:12px 20px}
+.sidebar a:hover{background:#334155}
+.main{margin-left:220px;padding:20px}
+.card{background:#1e293b;padding:15px;border-radius:10px;margin:10px 0}
+.btn{background:#16a34a;color:#fff;padding:10px 15px;border:none;border-radius:6px}
